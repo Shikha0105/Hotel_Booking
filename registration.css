@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fffafd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 600px;
+    margin: 40px auto; /* Adjust the margin-top value to move the form farther from the top */
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.6);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    color: #580d39;
+    font-size: large;
+    
+}
+
+h1 {
+    text-align: center;
+    color: #1f7081;
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+form input,
+form button {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    transition: border-color 0.3s ease;
+}
+
+form input[type="date"],
+form input[type="number"] {
+    appearance: none;
+}
+
+form input:focus {
+    border-color: #007bff;
+}
+form a{
+    margin: 0px auto;
+}
+
+#submit {
+    background-color: #ba57a3;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+#submit:hover {
+    background-color: #0056b3;
+}
+
+#booking-result {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.btn-box {
+    display: inline-block;
+    padding: 12px 28px;
+    background: linear-gradient(135deg, #0ef 0%, #00c0ff 100%);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.form-signin{
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+
+
+

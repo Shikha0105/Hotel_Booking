@@ -1,0 +1,75 @@
+body {
+    background-image: url(hotel.jpg);
+    background-size:cover;
+    background-color: #1f7d87; 
+}
+a {
+    text-decoration: none; 
+    display: inline-block; 
+    padding: 10px 20px;
+}
+.head {
+            
+    background-size: cover;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.form1 {
+   
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    animation: fadeIn 1s ease-in-out;
+    
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+h1 {
+    color: #000000;
+    font-size: 4em;
+    
+}
+
+.btn-box{
+    margin-top: 10px;
+    background-color: rgba(0, 255, 247, 0.561);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn-box:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+.blink {
+    animation: blink 1s infinite;
+}
+@keyframes blink {
+    0%, 50%, 100% {
+        opacity: 1;
+    }
+    25%, 75% {
+        opacity: 0;
+    }
+}
